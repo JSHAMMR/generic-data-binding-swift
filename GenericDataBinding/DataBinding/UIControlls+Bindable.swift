@@ -20,4 +20,14 @@ extension UITextField : Bindable {
         self.text = value
     }
 }
-
+extension UISwitch : Bindable {
+    public typealias BindingType = Bool
+    
+    public func observingValue() -> Bool? {
+        return self.isOn
+    }
+    
+    public func updateValue(with value: Bool) {
+        self.isOn = value
+    }
+}

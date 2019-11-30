@@ -37,12 +37,16 @@
                                     <segue destination="ej2-qK-sjA" kind="show" id="e7Q-VT-Jne"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yjq-fs-Gdp">
+                                <rect key="frame" x="183" y="479" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="QZ3-br-xa1" secondAttribute="trailing" constant="20" id="ENR-Yv-5n5"/>
                             <constraint firstItem="skl-p6-ycf" firstAttribute="top" secondItem="QZ3-br-xa1" secondAttribute="bottom" constant="35" id="OTp-AH-Fmf"/>
-                            <constraint firstItem="QZ3-br-xa1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="219" id="SVM-Cz-SYb"/>
+                            <constraint firstItem="QZ3-br-xa1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="219" id="UdB-2d-GJu"/>
                             <constraint firstItem="skl-p6-ycf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Zz1-N1-RGc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="skl-p6-ycf" secondAttribute="trailing" constant="20" id="ggS-w4-s4k"/>
                             <constraint firstItem="QZ3-br-xa1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="l1l-vg-Z5Q"/>
@@ -51,12 +55,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="3Hp-Ie-kQJ"/>
                     <connections>
+                        <outlet property="swich" destination="Yjq-fs-Gdp" id="RvK-TT-dWs"/>
                         <outlet property="txtFld" destination="QZ3-br-xa1" id="UJM-SR-ZBL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="949" y="66"/>
+            <point key="canvasLocation" x="947.82608695652186" y="65.625"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="o7i-bo-9pr">
@@ -71,23 +76,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vZf-4v-ZUh">
+                                <rect key="frame" x="184" y="400" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="k0N-h6-crH" firstAttribute="leading" secondItem="KIB-1o-dZS" secondAttribute="leadingMargin" constant="20" id="0sw-B3-ADP"/>
+                            <constraint firstItem="k0N-h6-crH" firstAttribute="top" secondItem="rGF-L5-BNp" secondAttribute="top" constant="219" id="5v9-n2-B96"/>
                             <constraint firstAttribute="trailingMargin" secondItem="k0N-h6-crH" secondAttribute="trailing" constant="20" id="8L7-u4-Ibw"/>
-                            <constraint firstItem="k0N-h6-crH" firstAttribute="top" secondItem="KIB-1o-dZS" secondAttribute="topMargin" constant="219" id="qhf-y1-Z5O"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rGF-L5-BNp"/>
                     </view>
                     <navigationItem key="navigationItem" id="2uM-YO-1Mn"/>
                     <connections>
+                        <outlet property="swich" destination="vZf-4v-ZUh" id="vQd-VC-Eec"/>
                         <outlet property="txtFld" destination="k0N-h6-crH" id="4vY-IR-AC8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgr-Gv-ZAf" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1729" y="46"/>
+            <point key="canvasLocation" x="1938" y="66"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sVw-fX-eRw">

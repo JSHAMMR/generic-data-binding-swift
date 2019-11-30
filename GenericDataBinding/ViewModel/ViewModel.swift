@@ -10,5 +10,6 @@ import UIKit
 
 class ViewModel: NSObject {
     let title: Observable<String> = Observable()
+    let isFlag: Observable<Bool> = Observable(false)
 
 }

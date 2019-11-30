@@ -11,9 +11,12 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var txtFld: UITextField!
+    @IBOutlet weak var swich: UISwitch!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         txtFld.bind(with: viewModel.title)
+        swich.bind(with:viewModel.isFlag)
 
         // Do any additional setup after loading the view.
     }
