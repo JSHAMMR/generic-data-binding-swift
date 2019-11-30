@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		DC04261523922115005BFB7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04261423922115005BFB7B /* AppDelegate.swift */; };
-		DC04261723922115005BFB7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04261623922115005BFB7B /* SceneDelegate.swift */; };
-		DC04261923922115005BFB7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04261823922115005BFB7B /* ViewController.swift */; };
+		DC04261923922115005BFB7B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04261823922115005BFB7B /* MasterViewController.swift */; };
 		DC04261C23922115005BFB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC04261A23922115005BFB7B /* Main.storyboard */; };
 		DC04261E23922117005BFB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC04261D23922117005BFB7B /* Assets.xcassets */; };
 		DC04262123922117005BFB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC04261F23922117005BFB7B /* LaunchScreen.storyboard */; };
+		DC042629239223BD005BFB7B /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC042628239223BD005BFB7B /* Observable.swift */; };
+		DC04262B23922538005BFB7B /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04262A23922538005BFB7B /* Bindable.swift */; };
+		DCE2D5E4239240C200E17E23 /* UIControlls+Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2D5E3239240C200E17E23 /* UIControlls+Bindable.swift */; };
+		DCE2D5E82392416000E17E23 /* BlockBasedSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE2D5E72392416000E17E23 /* BlockBasedSelector.m */; };
+		DCE2D5EA2392421100E17E23 /* BlockBasedSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2D5E92392421100E17E23 /* BlockBasedSelector.swift */; };
+		DCE2D5EC2392438400E17E23 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2D5EB2392438400E17E23 /* ViewModel.swift */; };
+		DCE2D5EE2392470200E17E23 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2D5ED2392470200E17E23 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC04261123922115005BFB7B /* GenericDataBinding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericDataBinding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC04261423922115005BFB7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC04261623922115005BFB7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC04261823922115005BFB7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC04261823922115005BFB7B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		DC04261B23922115005BFB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC04261D23922117005BFB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC04262023922117005BFB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC04262223922117005BFB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC042628239223BD005BFB7B /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		DC04262A23922538005BFB7B /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		DCE2D5E3239240C200E17E23 /* UIControlls+Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControlls+Bindable.swift"; sourceTree = "<group>"; };
+		DCE2D5E52392416000E17E23 /* GenericDataBinding-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GenericDataBinding-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCE2D5E62392416000E17E23 /* BlockBasedSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockBasedSelector.h; sourceTree = "<group>"; };
+		DCE2D5E72392416000E17E23 /* BlockBasedSelector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockBasedSelector.m; sourceTree = "<group>"; };
+		DCE2D5E92392421100E17E23 /* BlockBasedSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockBasedSelector.swift; sourceTree = "<group>"; };
+		DCE2D5EB2392438400E17E23 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DCE2D5ED2392470200E17E23 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +71,46 @@
 			isa = PBXGroup;
 			children = (
 				DC04261423922115005BFB7B /* AppDelegate.swift */,
-				DC04261623922115005BFB7B /* SceneDelegate.swift */,
-				DC04261823922115005BFB7B /* ViewController.swift */,
+				DCE2D5F12392482900E17E23 /* ViewModel */,
+				DCE2D5F02392481100E17E23 /* DataBinding */,
+				DCE2D5EF239247FA00E17E23 /* Contollers */,
 				DC04261A23922115005BFB7B /* Main.storyboard */,
 				DC04261D23922117005BFB7B /* Assets.xcassets */,
 				DC04261F23922117005BFB7B /* LaunchScreen.storyboard */,
+				DCE2D5E52392416000E17E23 /* GenericDataBinding-Bridging-Header.h */,
 				DC04262223922117005BFB7B /* Info.plist */,
 			);
 			path = GenericDataBinding;
+			sourceTree = "<group>";
+		};
+		DCE2D5EF239247FA00E17E23 /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				DC04261823922115005BFB7B /* MasterViewController.swift */,
+				DCE2D5ED2392470200E17E23 /* DetailViewController.swift */,
+			);
+			path = Contollers;
+			sourceTree = "<group>";
+		};
+		DCE2D5F02392481100E17E23 /* DataBinding */ = {
+			isa = PBXGroup;
+			children = (
+				DC042628239223BD005BFB7B /* Observable.swift */,
+				DC04262A23922538005BFB7B /* Bindable.swift */,
+				DCE2D5E3239240C200E17E23 /* UIControlls+Bindable.swift */,
+				DCE2D5E62392416000E17E23 /* BlockBasedSelector.h */,
+				DCE2D5E72392416000E17E23 /* BlockBasedSelector.m */,
+				DCE2D5E92392421100E17E23 /* BlockBasedSelector.swift */,
+			);
+			path = DataBinding;
+			sourceTree = "<group>";
+		};
+		DCE2D5F12392482900E17E23 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DCE2D5EB2392438400E17E23 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +145,7 @@
 				TargetAttributes = {
 					DC04261023922115005BFB7B = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -138,9 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC04261923922115005BFB7B /* ViewController.swift in Sources */,
+				DCE2D5EE2392470200E17E23 /* DetailViewController.swift in Sources */,
+				DCE2D5EA2392421100E17E23 /* BlockBasedSelector.swift in Sources */,
+				DCE2D5E82392416000E17E23 /* BlockBasedSelector.m in Sources */,
+				DC04261923922115005BFB7B /* MasterViewController.swift in Sources */,
+				DC042629239223BD005BFB7B /* Observable.swift in Sources */,
+				DCE2D5E4239240C200E17E23 /* UIControlls+Bindable.swift in Sources */,
+				DC04262B23922538005BFB7B /* Bindable.swift in Sources */,
+				DCE2D5EC2392438400E17E23 /* ViewModel.swift in Sources */,
 				DC04261523922115005BFB7B /* AppDelegate.swift in Sources */,
-				DC04261723922115005BFB7B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GenericDataBinding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,6 +346,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jamil.GenericDataBinding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GenericDataBinding/GenericDataBinding-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GenericDataBinding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +366,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jamil.GenericDataBinding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GenericDataBinding/GenericDataBinding-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

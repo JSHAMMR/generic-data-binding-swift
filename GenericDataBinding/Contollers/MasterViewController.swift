@@ -7,18 +7,19 @@
 //
 
 import UIKit
+var viewModel: ViewModel!
 
-class ViewController: UIViewController {
+class MasterViewController: UIViewController {
 
     @IBOutlet weak var txtFld: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel = ViewModel()
+        txtFld.bind(with: viewModel.title)
+
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func updateTxtFld(_ sender: Any) {
-        
-    }
     
 }
 
